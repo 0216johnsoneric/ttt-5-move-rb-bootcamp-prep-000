@@ -13,7 +13,7 @@ def input_to_index(move)
 end
 
 def move(board, index, token)
-  puts token = current_player(board)
+  puts token = default_value
   # puts board[index] = token
   # puts play(board)
 end
