@@ -8,4 +8,4 @@ board = [" "," "," "," "," "," "," "," "," "]
   puts "Please enter your move"
   move = gets.strip
   input_to_index(move)
-  move(index, token)
+  move(index, token = "X")
