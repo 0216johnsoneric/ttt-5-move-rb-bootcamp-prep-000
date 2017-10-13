@@ -12,11 +12,15 @@ def input_to_index(move)
    index
 end
 
-def turn(board)
-  puts "Please enter 1-9:"
-  #get the user input
-  user_input = gets.strip
-  #input to index
-  index = input_to_index(user_input)
-  token = current_player(board)
+def move(board, index, token)
+  # board[index] = token
+  # play(board)
 end
+# def turn(board)
+#   puts "Please enter 1-9:"
+#   #get the user input
+#   user_input = gets.strip
+#   #input to index
+#   index = input_to_index(user_input)
+#   token = current_player(board)
+# end
