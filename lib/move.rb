@@ -13,7 +13,7 @@ def input_to_index(move)
 end
 
 def move(board, index, token)
-  # board[index] = token
+  puts board[index] = token
   # play(board)
 end
 # def turn(board)
